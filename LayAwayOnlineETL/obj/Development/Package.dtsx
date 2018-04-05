@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{B1D0123E-EDE7-47B3-A9EF-AE4DED5F689B}">
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{F0254907-71FF-4FEC-B691-1D98A5B1723D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABe1KTuoQjfkaGccwSjrm7G3Cz7GaA5P/fo1ZS1V19gIQAAAAAOgAAAAAIAACAAAACjDSAYxm0JAk7gPv4acoORQG2xLEBaPaCH29CuYLsJRCAAAACJNujXYP/EGz1SS4dDp9YG5G1w/J5wP3lrFuQ2oJBt4UAAAAA0RHKfDmWPfCuTL89+D6Zv4mKGBGqXcxATagfL2nqY85oNv25yPFZSm13ixVuWyCXE1ttQvOpAjycAZaJAXVUW</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAhExzh2E6rklYE8x5P+xbRSk3k8WrXUDKJO5Nzve7DjgAAAAAOgAAAAAIAACAAAAC6h8FxkCt866iwRAhFy42cbeE290JRLaaLe2T3VyOTLCAAAADw3CwRlGUJBjskcbJgV/zCt1qwSNpZSoL3qfmGRLeWwkAAAAAhvvQT4nRJZVDtPmkqpiPwuiw+t/zBlarDoMJZc3aQGIETJ+Pfu/Xy70HD/sL+TvQYuWTMURPKJhUwbSAUwwlm</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,8 +72,18 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAASGjyNosjCNlXzUSy1zFzLZnY/dqeNdpGQwKK8OA1N+wAAAAAOgAAAAAIAACAAAADnyRklBrS/leRGXj/OWZAf/2mN0h6YQQgKUuFfu0RrNSAAAABpXCOo+2dNroHJ8ZqiR/OycpiaGHwNnxRIlqhN81m4BkAAAABHc5BM8jPqRbbX28FSaYrCxusD5t7ekIVR2VIQwtzZiOIhe3prOPThNt14iocRWJgRCLTG8E5HcniPT4lostNq</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADiTKB2138rTHPNA9ewhYPxUUT6y/Pv+F2ob92ULxXoAgAAAAAOgAAAAAIAACAAAAAlFC9x5+VzdSeV1BhUfjwT6Wm8ybyNNDvj75Di5bevySAAAAASaLRjbOO+uDIzZvGWe37WYjEi2/FQD9ghDOdjAzVjnUAAAACT1/KnOdKho1O0t8CPmm+dULXFSYN493OerotXIqY9JK+LfZYbVL2DH5uBsmG9IgDbIky8f4US6T7Hoaz0ZPTv</DTS:Password>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ItemExport]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{509E1C1D-C3F3-4BDA-A7BF-E948DD70C33C}"
+      DTS:ObjectName="ItemExport">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project\LayAwayOnlineETL\LaoProductExport.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -97,7 +107,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA07i6cg+HSrjkl/q226bqpFhzjLo2xdxNn/nyXhm/oogAAAAAOgAAAAAIAACAAAAAuZyzibrds3814RY7xGm9zy3rv4y7Hxk5eNz9cWKrvJyAAAAACh+CVi4JFUKmUgdNFMkQDFCrF7WbSfPuKaqnOHAxN80AAAABlfGIVEFtxBxxwqzK2YcLtvMfImnvXhE9Kh5Nnd7s7X+/snaigtmzLFCXKbVhmDasJVc2BJra5Z6VmW6mxwMK2</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9bMrhlNkWUaddbplltQcrQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACSZNBAIKeCrb39n9Ai8iPoI9NzeCjgtGbui9HYvu5jbAAAAAAOgAAAAAIAACAAAABrpa62LMIg0QiM4KXOVmqNWbIM7HvEX7/ej5qOyaNzaCAAAABAzntH/drvXzTSaw56EUs54lsk9gJLJFe426B0kRT6nEAAAAD2Ak0jnPyCnzjJsHcNdl+Wdn2gxH2UnpVXTRLhyhA1/YFbziuCMbZGs+jkp/cVQX01Upi59a6RE9m1MXQXFWkk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1942,9 +1952,1365 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\ItemsExport"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{9957576c-35e7-4b91-9d38-1ffe13debfdd}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ItemsExport"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\ItemsExport\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[itemNumber]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="itemNumber"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemNumber]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[itemName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="250"
+                      cachedName="itemName"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemName]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[itemDescription]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="400"
+                      cachedName="itemDescription"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDescription]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[make]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="make"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[make]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[model]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="70"
+                      cachedName="model"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[model]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[category]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="category"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[category]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[subCategory]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="subCategory"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[subCategory]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[savingPercent]"
+                      cachedDataType="cy"
+                      cachedName="savingPercent"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[savingPercent]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[color]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="color"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[color]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[itemSize]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="300"
+                      cachedName="itemSize"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemSize]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[itemDeliveryTime]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="300"
+                      cachedName="itemDeliveryTime"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDeliveryTime]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[status]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="300"
+                      cachedName="status"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[status]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[condition]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="300"
+                      cachedName="condition"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[condition]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input].Columns[pictureUrl]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="600"
+                      cachedName="pictureUrl"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[pictureUrl]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[itemNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[itemNumber]"
+                      name="itemNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemNumber]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="250"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemName]"
+                      name="Copy of itemName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemName]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDescription]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="400"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDescription]"
+                      name="Copy of itemDescription"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDescription]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of make]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of make]"
+                      name="Copy of make"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[make]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of model]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="70"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of model]"
+                      name="Copy of model"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[model]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of category]"
+                      name="Copy of category"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[category]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of subCategory]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of subCategory]"
+                      name="Copy of subCategory"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[subCategory]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of savingPercent]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of savingPercent]"
+                      name="Copy of savingPercent"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[savingPercent]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of color]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of color]"
+                      name="Copy of color"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[color]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemSize]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="300"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemSize]"
+                      name="Copy of itemSize"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemSize]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDeliveryTime]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="300"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDeliveryTime]"
+                      name="Copy of itemDeliveryTime"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDeliveryTime]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="300"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of status]"
+                      name="Copy of status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[status]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of condition]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="300"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of condition]"
+                      name="Copy of condition"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[condition]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of pictureUrl]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="600"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of pictureUrl]"
+                      name="Copy of pictureUrl"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[pictureUrl]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\ItemsExport\Excel Destination"
+              componentClassID="Microsoft.ExcelDestination"
+              contactInfo="Excel Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Excel Destination"
+              name="Excel Destination"
+              usesDispositions="true">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">laoItems$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\ItemsExport\Excel Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ItemExport]"
+                  connectionManagerRefId="Package.ConnectionManagers[ItemExport]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="IgnoreFailure"
+                  hasSideEffects="true"
+                  name="Excel Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[itemId]"
+                      cachedDataType="i4"
+                      cachedName="itemId"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemId]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemId]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[sale]"
+                      cachedDataType="cy"
+                      cachedName="sale"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[sale]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[sale]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[saving]"
+                      cachedDataType="cy"
+                      cachedName="saving"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[saving]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[saving]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[quantity]"
+                      cachedDataType="i4"
+                      cachedName="quantity"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[quantity]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[quantity]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[itemNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="itemNumber"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemNumber]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[itemNumber]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of itemName]"
+                      cachedDataType="wstr"
+                      cachedLength="250"
+                      cachedName="Copy of itemName"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemName]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemName]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of itemDescription]"
+                      cachedDataType="wstr"
+                      cachedLength="400"
+                      cachedName="Copy of itemDescription"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemDescription]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDescription]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of make]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of make"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[make]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of make]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of model]"
+                      cachedDataType="wstr"
+                      cachedLength="70"
+                      cachedName="Copy of model"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[model]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of model]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of category]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of category"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[category]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of category]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of subCategory]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Copy of subCategory"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[subCategory]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of subCategory]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[retailPrice]"
+                      cachedDataType="cy"
+                      cachedName="retailPrice"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[retailPrice]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[retailPrice]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of savingPercent]"
+                      cachedDataType="cy"
+                      cachedName="Copy of savingPercent"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[savingPercent]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of savingPercent]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of color]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of color"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[color]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of color]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of itemSize]"
+                      cachedDataType="wstr"
+                      cachedLength="300"
+                      cachedName="Copy of itemSize"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemSize]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemSize]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of itemDeliveryTime]"
+                      cachedDataType="wstr"
+                      cachedLength="300"
+                      cachedName="Copy of itemDeliveryTime"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemDeliveryTime]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of itemDeliveryTime]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of status]"
+                      cachedDataType="wstr"
+                      cachedLength="300"
+                      cachedName="Copy of status"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemStatus]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of status]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of condition]"
+                      cachedDataType="wstr"
+                      cachedLength="300"
+                      cachedName="Copy of condition"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[condition]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of condition]" />
+                    <inputColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].Columns[Copy of pictureUrl]"
+                      cachedDataType="wstr"
+                      cachedLength="600"
+                      cachedName="Copy of pictureUrl"
+                      externalMetadataColumnId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[pictureUrl]"
+                      lineageId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of pictureUrl]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemId]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemId" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemNumber]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemNumber" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemName]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemName" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemDescription]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemDescription" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[make]"
+                      dataType="wstr"
+                      length="255"
+                      name="make" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[model]"
+                      dataType="wstr"
+                      length="255"
+                      name="model" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[category]"
+                      dataType="wstr"
+                      length="255"
+                      name="category" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[subCategory]"
+                      dataType="wstr"
+                      length="255"
+                      name="subCategory" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[retailPrice]"
+                      dataType="wstr"
+                      length="255"
+                      name="retailPrice" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[sale]"
+                      dataType="wstr"
+                      length="255"
+                      name="sale" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[saving]"
+                      dataType="wstr"
+                      length="255"
+                      name="saving" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[savingPercent]"
+                      dataType="wstr"
+                      length="255"
+                      name="savingPercent" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[quantity]"
+                      dataType="wstr"
+                      length="255"
+                      name="quantity" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[color]"
+                      dataType="wstr"
+                      length="255"
+                      name="color" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemSize]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemSize" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemDeliveryTime]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemDeliveryTime" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[itemStatus]"
+                      dataType="wstr"
+                      length="255"
+                      name="itemStatus" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[condition]"
+                      dataType="wstr"
+                      length="255"
+                      name="condition" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input].ExternalColumns[pictureUrl]"
+                      dataType="wstr"
+                      length="255"
+                      name="pictureUrl" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\ItemsExport\Excel Destination.Outputs[Excel Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Excel Destination Error Output"
+                  synchronousInputId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ItemsExport\Excel Destination.Outputs[Excel Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\Excel Destination.Outputs[Excel Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ItemsExport\Excel Destination.Outputs[Excel Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\Excel Destination.Outputs[Excel Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\ItemsExport\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT	DISTINCT
+			I.itemId, 
+			IsNull(I.itemNumber,'') AS itemNumber,
+			IsNull(I.itemName,'') AS itemName,
+			IsNull(I.itemDescription,'') AS itemDescription,
+	--		IsNull(I.modelId,0) AS modelId,
+	--		IsNull(MO.makeId,0) AS makeId,
+			IsNull(M.make,'') AS make,
+			IsNull(MO.model,'') AS model,
+			IsNull(CA.category, '') AS category,
+	--		IsNull(SCA.subCategory, '') AS subCategory,
+			'' AS subCategory,
+			IsNull(I.retailPrice,0.00) AS retailPrice,
+			IsNull(I.sale,0.00) AS sale,
+			IsNull(I.retailPrice,0.00) - IsNull(I.sale,0.00) AS saving,
+			(IsNull(I.retailPrice,0.00) - IsNull(I.sale,0.00))/IsNull(I.retailPrice,1) AS savingPercent,
+			IsNull(I.quantity,0) AS quantity,
+	--		IsNull(CA.categoryId,0) AS categoryId,
+	--		IsNull(I.subCategoryId,0) AS subCategoryId,
+	--		IsNull(I.colorId,0) AS colorId,
+			IsNull(C.color, '') AS color,
+			DTS.laoValue AS itemSize,
+			DT.laoValue AS itemDeliveryTime,
+	--		IsNull(I.statusId,0) AS statusId,
+			IsNull(LTS.laoValue, '') AS [status],
+	--		IsNull(I.conditionId,0) AS conditionId,
+			IsNull(LTC.laoValue, '') AS condition,
+			IsNull(IT.pictureUrl, '') AS pictureUrl
+	FROM [dbo].[Item] I
+		LEFT JOIN dbo.Model MO
+		ON I.modelId = MO.modelId
+		LEFT JOIN dbo.Make M
+		ON M.makeId = MO.makeId
+		LEFT JOIN dbo.SubCategory SCA
+		ON I.subCategoryId = SCA.subCategoryId
+		LEFT JOIN dbo.Category CA
+		ON SCA.categoryId = CA.categoryId
+		LEFT JOIN dbo.Color C
+		ON C.colorId = I.ColorId
+		LEFT JOIN dbo.LaoType LTS
+		ON I.statusId = LTS.laoTypeId AND LTS.laoCode =  'itemStatus'
+		LEFT JOIN dbo.LaoType LTC
+		ON I.conditionId = LTC.laoTypeId AND LTC.laoCode =  'itemCondition'
+		LEFT JOIN dbo.ItemPicture IT
+		ON I.itemId = IT.itemId
+		LEFT JOIN 
+		(
+			SELECT LT.laoValue, ILT.itemId
+			FROM dbo.LaoType LT
+				INNER JOIN dbo.ItemLaoType ILT
+				ON ILT.laoTypeId = LT.laoTypeId AND LT.laoCode =  'itemDeliveryTime'
+		) AS DT
+		ON I.itemId = DT.itemId
+		LEFT JOIN 
+		(
+			SELECT LT.laoValue, ILT.itemId
+			FROM dbo.LaoType LT
+				INNER JOIN dbo.ItemLaoType ILT
+				ON ILT.laoTypeId = LT.laoTypeId AND LT.laoCode =  'itemSize'
+		) AS DTS
+		ON I.itemId = DTS.itemId
+	WHERE 1 = 1
+ORDER BY make,model</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\ItemsExport\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ItemsImport]"
+                  connectionManagerRefId="Package.ConnectionManagers[ItemsImport]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemId]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemId]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemId]"
+                      name="itemId"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemNumber]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemNumber]"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemNumber]"
+                      name="itemNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemName]"
+                      length="250"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemName]"
+                      name="itemName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemDescription]"
+                      length="400"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDescription]"
+                      name="itemDescription"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[make]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[make]"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[make]"
+                      name="make"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[model]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[model]"
+                      length="70"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[model]"
+                      name="model"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[category]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[category]"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[category]"
+                      name="category"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[subCategory]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[subCategory]"
+                      length="1"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[subCategory]"
+                      name="subCategory"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[retailPrice]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[retailPrice]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[retailPrice]"
+                      name="retailPrice"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[sale]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sale]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[sale]"
+                      name="sale"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[saving]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[saving]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[saving]"
+                      name="saving"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[savingPercent]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[savingPercent]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[savingPercent]"
+                      name="savingPercent"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[quantity]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[quantity]"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[quantity]"
+                      name="quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[color]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[color]"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[color]"
+                      name="color"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemSize]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemSize]"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemSize]"
+                      name="itemSize"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDeliveryTime]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemDeliveryTime]"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[itemDeliveryTime]"
+                      name="itemDeliveryTime"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[status]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[status]"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[status]"
+                      name="status"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[condition]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[condition]"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[condition]"
+                      name="condition"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[pictureUrl]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[pictureUrl]"
+                      length="600"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].Columns[pictureUrl]"
+                      name="pictureUrl"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemId]"
+                      dataType="i4"
+                      name="itemId" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemNumber]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="itemNumber" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="itemName" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      length="400"
+                      name="itemDescription" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[make]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="make" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[model]"
+                      codePage="1252"
+                      dataType="str"
+                      length="70"
+                      name="model" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[category]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="category" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[subCategory]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="subCategory" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[retailPrice]"
+                      dataType="cy"
+                      name="retailPrice" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sale]"
+                      dataType="cy"
+                      name="sale" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[saving]"
+                      dataType="cy"
+                      name="saving" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[savingPercent]"
+                      dataType="cy"
+                      name="savingPercent" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[quantity]"
+                      dataType="i4"
+                      name="quantity" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[color]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="color" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemSize]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      name="itemSize" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[itemDeliveryTime]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      name="itemDeliveryTime" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[status]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      name="status" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[condition]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      name="condition" />
+                    <externalMetadataColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[pictureUrl]"
+                      codePage="1252"
+                      dataType="str"
+                      length="600"
+                      name="pictureUrl" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemId]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemId]"
+                      name="itemId" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemNumber]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemNumber]"
+                      name="itemNumber" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemName]"
+                      name="itemName" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      length="400"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemDescription]"
+                      name="itemDescription" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[make]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[make]"
+                      name="make" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[model]"
+                      codePage="1252"
+                      dataType="str"
+                      length="70"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[model]"
+                      name="model" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[category]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[category]"
+                      name="category" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[subCategory]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[subCategory]"
+                      name="subCategory" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[retailPrice]"
+                      dataType="cy"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[retailPrice]"
+                      name="retailPrice" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sale]"
+                      dataType="cy"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sale]"
+                      name="sale" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[saving]"
+                      dataType="cy"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[saving]"
+                      name="saving" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[savingPercent]"
+                      dataType="cy"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[savingPercent]"
+                      name="savingPercent" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[quantity]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[quantity]"
+                      name="quantity" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[color]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[color]"
+                      name="color" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemSize]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemSize]"
+                      name="itemSize" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemDeliveryTime]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[itemDeliveryTime]"
+                      name="itemDeliveryTime" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[status]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[status]"
+                      name="status" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[condition]"
+                      codePage="1252"
+                      dataType="str"
+                      length="300"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[condition]"
+                      name="condition" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[pictureUrl]"
+                      codePage="1252"
+                      dataType="str"
+                      length="600"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[pictureUrl]"
+                      name="pictureUrl" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\ItemsExport.Paths[Data Conversion Output]"
+              endId="Package\ItemsExport\Excel Destination.Inputs[Excel Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\ItemsExport\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\ItemsExport.Paths[OLE DB Source Output]"
+              endId="Package\ItemsExport\Data Conversion.Inputs[Data Conversion Input]"
+              name="OLE DB Source Output"
+              startId="Package\ItemsExport\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\ItemsImport"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{bd0eb521-4d8e-484d-af7e-56932b5b716e}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2512,7 +3878,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="153,42"
           Id="Package\Data Flow Task"
@@ -2528,7 +3894,11 @@
         <NodeLayout
           Size="140,42"
           Id="Package\ItemsImport"
-          TopLeft="201,315" />
+          TopLeft="201,313" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\ItemsExport"
+          TopLeft="539,473" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -2536,7 +3906,7 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="173,42"
           Id="Package\Data Flow Task\OLE DB Destination"
@@ -2576,7 +3946,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2612,7 +3984,7 @@
     design-time-name="Package\Data Flow Task 1">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="173,42"
           Id="Package\Data Flow Task 1\OLE DB Destination"
@@ -2652,7 +4024,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2688,7 +4062,7 @@
     design-time-name="Package\Data Flow Task 1 1">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="173,42"
           Id="Package\Data Flow Task 1 1\OLE DB Destination"
@@ -2728,7 +4102,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2766,13 +4142,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="141,42"
-          Id="Package\ItemsImport\Excel Source"
-          TopLeft="272,153" />
-        <NodeLayout
           Size="173,42"
           Id="Package\ItemsImport\OLE DB Destination"
           TopLeft="324,312" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\ItemsImport\Excel Source"
+          TopLeft="272,153" />
         <EdgeLayout
           Id="Package\ItemsImport.Paths[Excel Source Output]"
           TopLeft="342.5,195">
@@ -2825,6 +4201,115 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\ItemsImport\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\ItemsExport">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,42"
+          Id="Package\ItemsExport\OLE DB Source"
+          TopLeft="701,148" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\ItemsExport\Excel Destination"
+          TopLeft="783,327" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\ItemsExport\Data Conversion"
+          TopLeft="581,263" />
+        <EdgeLayout
+          Id="Package\ItemsExport.Paths[OLE DB Source Output]"
+          TopLeft="777,190">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-117,73"
+              Start="0,0"
+              End="-117,65.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.5"
+                    Point2="0,36.5"
+                    Point3="-4,36.5" />
+                  <mssgle:LineSegment
+                    End="-113,36.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-113,36.5"
+                    Point2="-117,36.5"
+                    Point3="-117,40.5" />
+                  <mssgle:LineSegment
+                    End="-117,65.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\ItemsExport.Paths[Data Conversion Output]"
+          TopLeft="739,284">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="44,64"
+              Start="0,0"
+              End="36.5,64">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18,0"
+                    Point2="22,0"
+                    Point3="22,4" />
+                  <mssgle:LineSegment
+                    End="22,60" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22,60"
+                    Point2="22,64"
+                    Point3="26,64" />
+                  <mssgle:LineSegment
+                    End="36.5,64" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\ItemsExport\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\ItemsExport\Excel Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
